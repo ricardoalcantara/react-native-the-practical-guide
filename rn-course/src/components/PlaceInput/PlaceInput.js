@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 
-const input = (props) => (
+const PlaceInput = (props) => (
   <View style={styles.inputContainer}>
     <TextInput
       style={styles.placeInput}
@@ -34,4 +34,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default input;
+export default PlaceInput;
