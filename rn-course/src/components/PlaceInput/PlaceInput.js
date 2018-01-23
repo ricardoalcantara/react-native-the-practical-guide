@@ -12,7 +12,7 @@ const PlaceInput = (props) => (
     />
     <Button
       style={styles.placeButton}
-      title={props.buttonTitle}
+      title={props.buttonTitle || 'Add'}
       onPress={props.onPress}
     />
   </View>
