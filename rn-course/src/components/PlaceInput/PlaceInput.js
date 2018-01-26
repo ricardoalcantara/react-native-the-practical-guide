@@ -1,10 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
+import DefaultInput from '../ui/DefaultInput/DefaultInput';
+
 
 const PlaceInput = (props) => (
   <View style={styles.inputContainer}>
-    <TextInput
+    <DefaultInput
       style={styles.placeInput}
       placeHolder={props.placeHolder}
       value={props.value}
@@ -12,7 +14,7 @@ const PlaceInput = (props) => (
     />
     <Button
       style={styles.placeButton}
-      title={props.buttonTitle}
+      title={props.buttonTitle || 'Add'}
       onPress={props.onPress}
     />
   </View>
