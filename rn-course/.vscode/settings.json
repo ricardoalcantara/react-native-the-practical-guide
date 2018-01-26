@@ -1,0 +1,15 @@
+{
+    "editor.detectIndentation": false,
+    "[javascriptreact]": {
+      "editor.tabSize": 2
+    },
+    "[json]": {
+      "editor.tabSize": 2
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "files.associations": {
+      "*.js": "javascriptreact"
+    }
+}
